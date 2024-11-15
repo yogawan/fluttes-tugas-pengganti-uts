@@ -8,6 +8,7 @@ import 'package:app/pages/column_and_row_page.dart';
 import 'package:app/pages/elevated_button_page.dart';
 import 'package:app/pages/text_field_page.dart';
 import 'package:app/pages/icon_page.dart';
+import 'package:app/pages/stack_page.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
@@ -36,6 +37,7 @@ class MyApp extends StatelessWidget {
         '/elevatedbutton': (context) => const ElevatedButtonPage(),
         '/textfield': (context) => const TextFieldPage(),
         '/icon': (context) => const IconPage(),
+        '/stack': (context) => const StackPage(),
       },
     );
   }
